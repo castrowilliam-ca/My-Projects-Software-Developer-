@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Delicias del Caribe</title>
+    <link rel="stylesheet" href="estilos-menu.css">
+</head>
+<body>
+    <header>
+        <h1>🍽️ Delicias del Caribe</h1>
+        <p>Los mejores sabores de Cartagena en tu mesa</p>
+    </header>
+
+    <main>
+        <section class="categoria">
+            <h2>🍖 Platos Fuertes</h2>
+            <div class="grid-platos">
+                <div class="plato">
+                    <h3>Arroz con Pollo</h3>
+                    <p>Arroz sabroso con pollo desmenuzado, verduras y especias.</p>
+                    <span class="precio">$ 18.000 COP</span>
+                </div>
+                <div class="plato">
+                    <h3>Pescado Frito con Patacón</h3>
+                    <p>Pescado fresco de la costa, crujiente, acompañado de plátano frito.</p>
+                    <span class="precio">$ 25.000 COP</span>
+                </div>
+                <div class="plato">
+                    <h3>Sancocho de Pescado</h3>
+                    <p>Caldo tradicional con pescado, yuca, plátano y papa.</p>
+                    <span class="precio">$ 22.000 COP</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="categoria">
+            <h2>🥤 Bebidas</h2>
+            <div class="grid-platos">
+                <div class="plato">
+                    <h3>Jugo de Lulo</h3>
+                    <p>Fruta fresca con leche o agua — natural y refrescante.</p>
+                    <span class="precio">$ 8.000 COP</span>
+                </div>
+                <div class="plato">
+                    <h3>Agua de Coco</h3>
+                    <p>Directa de la cocotera, fría y natural.</p>
+                    <span class="precio">$ 6.000 COP</span>
+                </div>
+                <div class="plato">
+                    <h3>Refajo</h3>
+                    <p>Cerveza con gaseosa colombiana — tradicional.</p>
+                    <span class="precio">$ 10.000 COP</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="categoria">
+            <h2>🍰 Postres</h2>
+            <div class="grid-platos">
+                <div class="plato">
+                    <h3>Arroz con Leche</h3>
+                    <p>Receta casera con canela, pasas y mucho cariño.</p>
+                    <span class="precio">$ 7.000 COP</span>
+                </div>
+                <div class="plato">
+                    <h3>Cocada</h3>
+                    <p>Dulce de coco rallado, típico de nuestra tierra.</p>
+                    <span class="precio">$ 5.000 COP</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="pedido">
+            <h2>📝 Haz tu Pedido</h2>
+            <form>
+                <label for="nombre">Tu Nombre:</label>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+
+                <label for="direccion">Dirección de Entrega:</label>
+                <input type="text" id="direccion" placeholder="Barrio, calle, número..." required>
+
+                <label for="seleccion">¿Qué deseas pedir?</label>
+                <textarea id="seleccion" rows="4" placeholder="Ej: 1 Pescado frito, 1 Jugo de lulo..."></textarea>
+
+                <button type="submit">✅ Enviar Pedido</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>📍 Cartagena, Colombia | 📞 +57 300 123 4567</p>
+        <p>&copy; 2026 — Delicias del Caribe. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
